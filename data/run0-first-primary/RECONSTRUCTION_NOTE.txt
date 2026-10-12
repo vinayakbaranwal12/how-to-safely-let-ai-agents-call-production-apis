@@ -1,0 +1,6 @@
+episodes.jsonl was empty after the run, although the runner logged every episode.
+Rebuilt on 2026-10-08 21:32:50 IST by reconstruct_episodes.py from 300 transcripts.
+Rows are in planned order, not completion order. Each line is the transcript row without its 'transcript' key.
+Verified: summarize(rebuilt rows) with the frozen live_agent.py equals this run's summary.md exactly.
+episodes.jsonl sha256: 245ae8f06f00e27b06cd4a98f59fd3ca907deff0976809945d09cf6972fcb4b9
+The original empty file is kept as episodes.jsonl.empty-original.

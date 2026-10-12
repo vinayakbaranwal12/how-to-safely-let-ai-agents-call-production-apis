@@ -1,0 +1,7 @@
+# The gateway, the deterministic scenarios, and the validation tools
+# (harness/gateway.py, harness/scenarios.py, harness/validate_run.py,
+# harness/reconstruct_episodes.py) use only the Python 3.10+ standard library.
+#
+# This is for the live runner (harness/live/live_agent.py) only.
+# Live runs: Python 3.14.8, openai 3.26.1.
+openai>=3.26
